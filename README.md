@@ -12,7 +12,6 @@ Avant le fine-tuning, il est nécessaire de convertir les checkpoints du modèle
 python convert_original_discriminator_checkpoint.py \
   --language_code ara \
   --pytorch_dump_folder_path arabic-mms-checkpoint \
-  --push_to_hub tonusername/arabic-mms-tts
 ```
 
 👉 **Pourquoi ?**  
